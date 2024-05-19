@@ -7,6 +7,9 @@ const aboutBtn = document.querySelector("#aboutBtn");
 const mainHref = document.querySelector("#mainHref");
 const aboutHref = document.querySelector("#aboutHref");
 
+// localStorage login_Mi kontröl default false
+localStorage.setItem('login_Mi', "false");
+
 let login_kontrol = localStorage.getItem('login_Mi');
 console.log(login_kontrol)
 

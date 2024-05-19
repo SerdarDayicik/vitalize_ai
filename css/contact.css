@@ -1,0 +1,40 @@
+.contact{
+    width: 50%;
+}
+
+.ContactBtn{
+    width: 150px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+}
+.ContactBtn:hover{
+    background-color: #009688;
+}
+.centerdiv{
+    text-align: center;
+}
+.form-control{
+    border: 2px solid #009688;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.form-control:focus{
+    background-color: transparent;
+}
+
+@media (max-width: 1260px) {
+    .contact{
+        width: 75%;
+    }
+}
+@media (max-width: 630px) {
+    .contact{
+        width: 100%;
+    }
+}

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    overflow: hidden;
+}
+/* kaydırma çubuğunu gizleme */
+.text-user::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: linear-gradient(400deg,#292929,#292929,#252525,#000000,#252525,#313131);
+    background-size: 260% 150%;
+}
+
+.orta {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    max-height: 100vh;
+}
+
+.text-user{
+    max-height: 83dvh;
+    overflow: auto;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.user-input{
+    max-height: 10dvh;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.none-text{
+    display: none;
+}
+
+.gptBtn{
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 15px;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.gptBtn:hover{
+    background-color: #009688;
+}
+
+
+.form-control{
+    border: 2px solid #009688;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.form-control:focus{
+    background-color: transparent;
+}
+
+.form-hover:hover{
+    background-color: #009688;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+/* gpt ve Kull text yeri */
+.clearfix{
+    margin-top: 25px;
+}
+
+.chat .chat-history .message {
+    color: #444;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative
+}
+
+
+
+/* msg background color */
+.chat .chat-history .my-message {
+    background: #efefef
+}
+
+
+.chat .chat-history .other-message {
+    background: #e8f1f3;
+    text-align: right
+}
+
+
+
+/* Kull msg sağa yaslama */
+.float-right { 
+    float: right
+}
+
+/* telefon için */
+/* 992 için */
+@media (max-width: 992px) {
+    .none-text{
+        display: block;
+        margin-top: 225px;
+    }
+    .back-main{
+        width: 500px;
+        height: 49px;
+        background-color: #1f1e1e;
+    }
+    .desktop{
+        display: none;
+    }
+    .h6{
+        font-size: 20px;
+    }
+    .clearfix{
+        margin-top: 35px;
+    }
+}
+
+/* 1400px için */
+@media (max-width: 1400px) {
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+}

@@ -7,9 +7,16 @@ const aboutBtn = document.querySelector("#aboutBtn");
 const mainHref = document.querySelector("#mainHref");
 const aboutHref = document.querySelector("#aboutHref");
 
-let login_kontrol = localStorage.getItem('login_Mi');
-console.log(login_kontrol)
+const isFirstVisitKey = 'ilk_Giriş';
 
+if (!localStorage.getItem(isFirstVisitKey)) {
+
+    localStorage.setItem('login_Mi', "false");    
+    localStorage.setItem(isFirstVisitKey, true);
+}
+
+
+let login_kontrol = localStorage.getItem('login_Mi');
 
 if (login_kontrol === "false") {
     login.classList.remove("login-Control");

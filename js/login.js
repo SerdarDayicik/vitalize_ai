@@ -13,7 +13,6 @@ const password = Users.password
 loginBtn.addEventListener("click", function(e) {
     if(username === loginUsername.value && password === loginPassword.value){
         localStorage.setItem('login_Mi', "true");
-        console.log("tamam")
         window.location.href = '../index.html';
     }
     else{
@@ -21,5 +20,5 @@ loginBtn.addEventListener("click", function(e) {
     }
 
 
-    e.preventDefault()
+    e.preventDefault();
 })

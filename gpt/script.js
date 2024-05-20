@@ -30,7 +30,7 @@ question.forEach(function (question) {
 // User mesaj ekleme
 btnGpt.addEventListener("click", function () {
     if (input.value === "") {
-        console.log("ahhhhh")
+        console.log("Deger Girilmeli")
     }
     else {
         container.remove();

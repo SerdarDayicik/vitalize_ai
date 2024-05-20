@@ -3,7 +3,7 @@ const Password = document.querySelector("#registarPassword");
 const AgainPass = document.querySelector("#registarPasswordAgain");
 const ApiKey = document.querySelector("#registarApiKey");
 
-function User_Kaydet(){
+function User_Kaydet(e){
     var user = {
         username : Username.value,
         password: Password.value,
@@ -13,11 +13,12 @@ function User_Kaydet(){
     
     if(Password.value === AgainPass.value){
         localStorage.setItem("Kullanici", JSON.stringify(user));
-        console.log("qwewqe")
+        window.location.href = '../login/login.html';
     }else{
         console.log("Olmazzzzz")
     }
 
+    e.preventDefault();
 }
 
 

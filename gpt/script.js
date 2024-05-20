@@ -88,8 +88,8 @@ async function gptMessage() {
         textİng.innerHTML += msg;
         scrollBottom()
 
-        console.log(cevap);
-        console.log(data);
+        // console.log(cevap);
+        // console.log(data);
     }
     catch{
         const saatDakika = saat();
@@ -105,6 +105,7 @@ async function gptMessage() {
         `;
 
         textİng.innerHTML += msg;
+        scrollBottom()
     }
 }
 

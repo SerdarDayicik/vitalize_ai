@@ -1,32 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
+
 .container{
 	max-width: 1170px;
 	margin:auto;
     text-align: center;
 }
+
 .row{
 	display: flex;
 	flex-wrap: wrap;
 }
+
 ul{
 	list-style: none;
 }
+
 .footer{
     padding: 70px 0;
 }
+
 .footer-col{
    width: 50%;
    padding: 0 15px;
 }
+
 .footer-col h4{
 	font-size: 18px;
 	color: #ffffff;
@@ -35,6 +43,8 @@ ul{
 	font-weight: 500;
 	position: relative;
 }
+
+/* Çizgi */
 .footer-col h4::before{
 	content: '';
 	position: absolute;
@@ -44,9 +54,12 @@ ul{
 	box-sizing: border-box;
 	width: 50px;
 }
+
+/* boşluk */
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
+
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
@@ -56,10 +69,12 @@ ul{
 	color: #bbbbbb;
 	display: block;
 }
+
 .footer-col ul li a:hover{
 	color: #ffffff;
 	padding-left: 8px;
 }
+
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
@@ -71,6 +86,7 @@ ul{
 	border-radius: 50%;
 	color: #ffffff;
 }
+
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;

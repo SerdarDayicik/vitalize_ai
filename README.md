@@ -10,13 +10,13 @@ HTML, CSS ve JavaScript kullanılarak oluşturulmuş basit bir proje. Ekstra bir
 
 ## Genel Bakış
 
-Bu proje, temel HTML, CSS ve JavaScript kullanılarak oluşturulmuş bir responsive ve etkileşimli web uygulamasını göstermektedir. Başlangıç seviyesindeki kullanıcılar veya hafif bir çözüm arayanlar için idealdir.
+Bu proje, yapay zeka destekli insanlara daha sağlıklı bir yaşam tarzı ve sağlıklı beslenme hakkında bilgiler sunan bir web uygulamasıdır.
 
 ## Özellikler
 
-- Duyarlı tasarım
-- Vanilla JavaScript kullanılarak yapılan etkileşimli öğeler
-- Hafif ve hızlı
+- Sağlıklı yaşam ve beslenme hakkında güncel bilgiler
+- Basit ve kullanıcı dostu bir arayüz
+- Hızlı ve güvenilir performans
 
 ## Kullanım
 

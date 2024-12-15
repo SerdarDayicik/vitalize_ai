@@ -26,8 +26,8 @@ Depoyu indirin veya kopyalayın ve herhangi bir modern web tarayıcısında `ind
 ![Açılış Sayfası](https://via.placeholder.com/800x400.png?text=A%C3%A7%C4%B1l%C4%B1%C5%9F+Sayfas%C4%B1)
 *Açılış sayfasının bir ekran görüntüsü.*
 
-![Etkileşimli Bölüm]([https://via.placeholder.com/800x400.png?text=Etkile%C5%9Fimli+B%C3%B6l%C3%BCm](https://github.com/SerdarDayicik/vitalize_ai/blob/main/img/ai-page.png?raw=true))
-*Sayfadaki etkileşimli bir özelliğin gösterimi.*
+![Etkileşimli Bölüm](https://github.com/SerdarDayicik/vitalize_ai/blob/main/img/ai-page.png?raw=true)
 
 ![Duyarlı Tasarım](https://via.placeholder.com/800x400.png?text=Duyarl%C4%B1+Tasar%C4%B1m)
-*Tasarımın farklı cihazlara nasıl uyum sağladığını gösterir.*
+
+

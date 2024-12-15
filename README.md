@@ -6,7 +6,6 @@ HTML, CSS ve JavaScript kullanılarak oluşturulmuş basit bir proje. Ekstra bir
 - [Özellikler](#özellikler)
 - [Kullanım](#kullanım)
 - [Ekran Görüntüleri](#ekran-görüntüleri)
-- [Lisans](#lisans)
 
 ## Genel Bakış
 
@@ -32,7 +31,3 @@ Depoyu indirin veya kopyalayın ve herhangi bir modern web tarayıcısında `ind
 
 ![Duyarlı Tasarım](https://via.placeholder.com/800x400.png?text=Duyarl%C4%B1+Tasar%C4%B1m)
 *Tasarımın farklı cihazlara nasıl uyum sağladığını gösterir.*
-
-## Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.

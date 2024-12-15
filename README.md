@@ -19,7 +19,7 @@ Bu proje, yapay zeka destekli insanlara daha sağlıklı bir yaşam tarzı ve sa
 
 ## Kullanım
 
-Depoyu indirin veya kopyalayın ve herhangi bir modern web tarayıcısında `index.html` dosyasını açın.
+herhangi bir modern web tarayıcısında `index.html` dosyasını açın.
 
 ## Ekran Görüntüleri
 

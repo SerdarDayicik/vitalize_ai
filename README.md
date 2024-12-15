@@ -23,7 +23,7 @@ Depoyu indirin veya kopyalayın ve herhangi bir modern web tarayıcısında `ind
 
 ## Ekran Görüntüleri
 
-![Açılış Sayfası](https://github.com/SerdarDayicik/vitalize_ai/blob/main/img/ai-page1.png?raw=true)
+![Açılış Sayfası](https://github.com/SerdarDayicik/vitalize_ai/blob/main/img/ai-page3.png?raw=true)
 *Açılış sayfasının bir ekran görüntüsü.*
 
 ![Etkileşimli Bölüm](https://github.com/SerdarDayicik/vitalize_ai/blob/main/img/ai-page.png?raw=true)

@@ -29,5 +29,5 @@ Depoyu indirin veya kopyalayın ve herhangi bir modern web tarayıcısında `ind
 ![Etkileşimli Bölüm](https://github.com/SerdarDayicik/vitalize_ai/blob/main/img/ai-page.png?raw=true)
 
 ![Duyarlı Tasarım](https://github.com/SerdarDayicik/vitalize_ai/blob/main/img/ai-page2.png?raw=true)
-
+*ChatBot sayfasının bir ekran görüntüsü.*
 
